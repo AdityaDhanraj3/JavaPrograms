@@ -9,9 +9,7 @@ public class FindKthLargestElement {
 			pqueue.add(elements);
 			if(pqueue.size()>k) {
 				pqueue.remove();
-			}
-			
-			
+			}	
 		}
 		return pqueue.remove();
 	}
